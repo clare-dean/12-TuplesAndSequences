@@ -1,7 +1,7 @@
 names = ["Francis", "Elizabeth", "Margaret", "Catherine", "Anthony", "Andrew", "Walter"]
 
 ###############################################################################
-# TODO: 1. (4 pts)
+#DONE: 1. (4 pts)
 #
 #   For this _TODO_, we are going to take a look at lists again to help us
 #   understand sequences.
@@ -29,3 +29,12 @@ names = ["Francis", "Elizabeth", "Margaret", "Catherine", "Anthony", "Andrew", "
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+print(names)
+print(len(names))
+names.append("Mary")
+print(names)
+print(names)
+print(len(names))
+names.sort()
+print(names)
+print(len(names))
